@@ -12,8 +12,8 @@ output/
 
 # Python
 __pycache__/
-*.pyc
-src/common/
+*.py
+
 file_name.py
 
 # Environment
