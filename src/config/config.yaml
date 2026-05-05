@@ -1,0 +1,67 @@
+path:
+  logs:
+    raw_log: "/opt/spark-apps/main/logs/raw/raw.log"
+    std_log: "/opt/spark-apps/main/logs/std/std.log"
+    dist_log: "/opt/spark-apps/main/logs/dist/dist.log"
+
+  raw_source:
+    file: "/opt/spark-apps/main/data/raw"
+
+  std_source:
+    call_center: "hdfs://hdfs-namenode:9000/files/source_std/call_center"
+    catalog_page: "hdfs://hdfs-namenode:9000/files/source_std/catalog_page/"
+    catalog_returns: "hdfs://hdfs-namenode:9000/files/source_std/catalog_returns/"
+    catalog_sales: "hdfs://hdfs-namenode:9000/files/source_std/catalog_sales/"
+    customer: "hdfs://hdfs-namenode:9000/files/source_std/customer/"
+    customer_address: "hdfs://hdfs-namenode:9000/files/source_std/customer_address/"
+    customer_demographics: "hdfs://hdfs-namenode:9000/files/source_std/customer_demographics/"
+    date_dim: "hdfs://hdfs-namenode:9000/files/source_std/date_dim/"
+    household_demographics: "hdfs://hdfs-namenode:9000/files/source_std/household_demographics/"
+    income_band: "hdfs://hdfs-namenode:9000/files/source_std/income_band/"
+    item: "hdfs://hdfs-namenode:9000/files/source_std/item/"
+    reason: "hdfs://hdfs-namenode:9000/files/source_std/reason/"
+    ship_mode: "hdfs://hdfs-namenode:9000/files/source_std/ship_mode/"
+    store: "hdfs://hdfs-namenode:9000/files/source_std/store/"
+    store_returns: "hdfs://hdfs-namenode:9000/files/source_std/store_returns/"
+    store_sales: "hdfs://hdfs-namenode:9000/files/source_std/store_sales/"
+    warehouse: "hdfs://hdfs-namenode:9000/files/source_std/warehouse/"
+    web_page: "hdfs://hdfs-namenode:9000/files/source_std/web_page/"
+    web_returns: "hdfs://hdfs-namenode:9000/files/source_std/web_returns/"
+    web_sales: "hdfs://hdfs-namenode:9000/files/source_std/web_sales/"
+    web_site: "hdfs://hdfs-namenode:9000/files/source_std/web_site/"
+
+  gold_source:
+    call_center: "hdfs://hdfs-namenode:9000/files/source_dist/call_center"
+    catalog_webpage: "hdfs://hdfs-namenode:9000/files/source_dist/catalog_page/"
+    catalog_returns: "hdfs://hdfs-namenode:9000/files/source_dist/catalog_returns/"
+    catalog_sales: "hdfs://hdfs-namenode:9000/files/source_dist/catalog_sales/"
+    customer: "hdfs://hdfs-namenode:9000/files/source_dist/customer/"
+    customer_address: "hdfs://hdfs-namenode:9000/files/source_dist/customer_address/"
+    customer_demographics: "hdfs://hdfs-namenode:9000/files/source_dist/customer_demographics/"
+    date_dim: "hdfs://hdfs-namenode:9000/files/source_dist/date_dim/"
+    household_demographics: "hdfs://hdfs-namenode:9000/files/source_dist/household_demographics/"
+    income_band: "hdfs://hdfs-namenode:9000/files/source_dist/income_band/"
+    item: "hdfs://hdfs-namenode:9000/files/source_dist/item/"
+    reason: "hdfs://hdfs-namenode:9000/files/source_dist/reason/"
+    ship_mode: "hdfs://hdfs-namenode:9000/files/source_dist/ship_mode/"
+    store: "hdfs://hdfs-namenode:9000/files/source_dist/store/"
+    store_returns: "hdfs://hdfs-namenode:9000/files/source_dist/store_returns/"
+    store_sales: "hdfs://hdfs-namenode:9000/files/source_dist/store_sales/"
+    warehouse: "hdfs://hdfs-namenode:9000/files/source_dist/warehouse/"
+    web_page: "hdfs://hdfs-namenode:9000/files/source_dist/web_page/"
+    web_returns: "hdfs://hdfs-namenode:9000/files/source_dist/web_returns/"
+    web_sales: "hdfs://hdfs-namenode:9000/files/source_dist/web_sales/"
+    web_site: "hdfs://hdfs-namenode:9000/files/source_dist/web_site/"
+
+  Extract:
+    returns: "hdfs://hdfs-namenode:9000/files/extract/returns/"
+    sales: "hdfs://hdfs-namenode:9000/files/extract/sales/"
+    catalog_returns: "hdfs://hdfs-namenode:9000/files/extract/returns_catalog/"
+    catalog_sales: "hdfs://hdfs-namenode:9000/files/extract/sales_catalog/"
+    web_returns: "hdfs://hdfs-namenode:9000/files/extract/returns_web/"
+    web_sales: "hdfs://hdfs-namenode:9000/files/extract/sales_web/"
+
+
+
+
+

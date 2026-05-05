@@ -1,0 +1,26 @@
+# Logs
+logs/
+*.log
+
+# Data files
+data/
+*.csv
+*.parquet
+
+extracts/
+output/
+
+# Python
+__pycache__/
+*.pyc
+
+# Environment
+.env
+venv/
+
+# Spark
+spark-warehouse/
+
+# OS files
+.DS_Store
+Thumbs.db
