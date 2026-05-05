@@ -26,6 +26,7 @@ A production-grade **PySpark ETL pipeline** implementing the **Medallion Archite
 - [Running the Pipeline](#running-the-pipeline)
 - [Logging](#logging)
 - [Output](#output)
+- [Dataset](#dataset)
 
 ---
 
@@ -238,4 +239,8 @@ These files are ready for consumption by BI tools, analytical databases, or ML p
 
 ---
 
+## Dataset
 
+TPC-DS Benchmark Dataset, This is the dataset used in this project. Download Dataset from below link
+  
+  ###[Dataset](https://zenodo.org/records/17866010)
